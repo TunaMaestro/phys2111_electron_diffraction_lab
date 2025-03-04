@@ -179,6 +179,27 @@ $.
 
 The errors are just outside the range of consistency for the calculated lattice spacings. This could indicates that there is a systematic error in the experiment, but more data would be required to evaluate the consistency of the approx. -12% error.
 
+== Diffraction effects
+
+#table(
+  stroke: (thickness: 0.1pt),
+  columns: 3,
+  [Voltage (kV)], [Wavelength (pm)], [Observation],
+  [1.4], [32.8pm], [No diffraction effects],
+  [1.7], [29.7pm], [Appear extremely faintly],
+  [2.2], [26.1pm], [Appear strongly],
+  [8.0], [13.7pm], [Appear strongly],
+  [10.0], [12.3pm], [Appear strongly],
+)
+
+The electrons did not produce an interference at low voltages, and produces an image up until the highest tested voltage of 8kV.
+
+= Conclusion
+
++ Electrons diffract under some conditions i.e. within a specific momentum range and
++ electrons therefore exhibit wave properties.
++ That a straight electron beam causes an image with maxima and minima demonstrates well that interference is occuring.
+
 
 #pagebreak()
 = Appendix <appendix>
