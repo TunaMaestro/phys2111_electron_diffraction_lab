@@ -6,6 +6,9 @@
   author: read("author.txt"))
 
 #align(center)[
+  Feburary 2025
+]
+#align(center)[
   #read("author.txt")
 ]
 
@@ -30,33 +33,33 @@ NB: Mostly taken from the student notes.
 
 The De Broglie wavlength equation is
 $
-  lambda = h / p
+  lambda = h / p.
 $ <debroglie>
 
 The momentum of an electron can be derived from its kinetic energy:
 
 $
- "KE" = 1/2 m v^2 = p^2 / (2m) = e U_a
+ "KE" = 1/2 m v^2 = p^2 / (2m) = e U_a.
 $ <ke>
 
 Using @debroglie and @ke we get:
 $
-  lambda = h / (sqrt(2 m e U_a))
+  lambda = h / (sqrt(2 m e U_a)).
 $
 
 The Bragg condition for constructive interference gives maxima at:
 $
-  2 d sin theta = n lambda #h(1em)  ("for" n = 1, 2...)
+  2 d sin theta = n lambda #h(1em)  ("for" n = 1, 2...).
 $ <bragg>
 
 Then, knowing that the angle of deviation, $alpha = 2 theta$ and using the small angle approximation, we can derive an expression for r:
 $
-  sin 2 alpha = r / R \ 
-  sin a = r / 2R \
-  sin theta = r / (4 R) \
+  sin 2 alpha = r / R, \ 
+  sin a = r / 2R, \
+  sin theta = r / (4 R), \
 $
 $
-  r = (2 R) / d n lambda
+  r = (2 R) / d n lambda.
 $ <r_lambda>
 
 To analyse the relationship we wish to plot a linear graph between voltage and radius.
@@ -162,7 +165,7 @@ The expected values were sourced from this diagram of graphite's crystal structu
   columns: (50%, 50%),
   figure(
     image("graphite-lattice-student-notes.png"),
-    caption: [Graphite planes for first two interference rings.]
+    caption: [Graphite planes for first two interference rings. #cite(<student_notes>)]
   ),
   figure(
     image("graphite-lattice-diagram.png"),
@@ -178,6 +181,7 @@ $
 $.
 
 The errors are just outside the range of consistency for the calculated lattice spacings. This could indicates that there is a systematic error in the experiment, but more data would be required to evaluate the consistency of the approx. -12% error.
+This could be due to Bragg's law being an insufficient model for electron diffraction. The factor could also be due to unnacounted for relativistic effects. The velocity of a 10keV electron is approximately 0.19c, but the equations used (@ke) use classical kinetic energy. The lorentz factor at this value is only around 2% so this is probably not a large component of the error.
 
 == Diffraction effects
 
@@ -193,6 +197,8 @@ The errors are just outside the range of consistency for the calculated lattice 
 )
 
 The electrons did not produce an interference at low voltages, and produces an image up until the highest tested voltage of 8kV.
+The diffraction appears only within a certain band of wavelengths, but the range itself is unexpected. I had thought that diffraction mainly occured when the wavelength was within the order of the grating distances.
+When there are no diffraction effects, the electrons behave as particles and travel straight from the sample to the centre of the screen.
 
 = Conclusion
 
